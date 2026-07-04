@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    margin: 0;
+  }
+
+  .hero-canvas {
+    position: ; 
+    
+    width: 300px;
+    height: 400px;
+    background-color: #87CEEB; 
+    border: 4px solid #333;
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+
+  .hero-canvas div {
+    position: ;
+  }
+
+  .cape {
+    width: 160px;
+    height: 220px;
+    background-color: #d32f2f;
+    top: ?px;
+    left: ?px; 
+    border-radius: 10px 10px 50% 50%;
+    z-index: 1; 
+  }
+
+
+  .torso {
+    width: 100px;
+    height: 120px;
+    background-color: #1976D2;
+    top: ?px;
+    left: ?px;
+    border-radius: 10px 10px 20px 20px;
+    z-index: 2;
+  }
+
+  .arm {
+    width: 30px;
+    height: 90px;
+    background-color: #1565C0;
+    top: ?px;
+    border-radius: 15px;
+    z-index: 2;
+  }
+  .arm.left { left: 75px; transform: rotate(10deg); }
+  .arm.right { right: 75px; transform: rotate(-10deg); }
+
+  .leg {
+    width: 35px;
+    height: 100px;
+    background-color: #0D47A1; 
+    top: ?px;
+    z-index: 2;
+    border-radius: 0 0 10px 10px;
+  }
+  .leg.left { left: ?px; }
+  .leg.right { right: ?px; }
+
+  
+  .head {
+    width: 80px;
+    height: 90px;
+    background-color: #FFCCBC;
+    top: ?px;
+    left: ?px; 
+    border-radius: 40px;
+    border-bottom: 5px solid #E64A19; 
+    z-index: 3;
+  }
+
+  .eye {
+    width: 15px;
+    height: 8px;
+    background-color: white;
+    top: ?px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    z-index: 4;
+  }
+  .eye::after {
+      content: '';
+      display: block;
+      width: 5px; height: 5px;
+      background: black;
+      border-radius: 50%;
+      margin-left: 5px;
+  }
+  .eye.left { left: 130px; }
+  .eye.right { left: 155px; }
+
+  .belt {
+    width: 100px;
+    height: 20px;
+    background-color: #FFD600; 
+    top: ?px;
+    left: ?px;
+    z-index: 3;
+    border-radius: 2px;
+  }
+  
+  .emblem {
+      width: 30px;
+      height: 30px;
+      background: #FFD600;
+      top: ?px;
+      left: ?px; 
+      transform: rotate(45deg); 
+      z-index: 4;
+      box-shadow: 0 0 0 3px #d32f2f;
+  }
